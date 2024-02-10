@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.imageResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -98,7 +99,9 @@ fun ListItem(bookCategory: BookCategory, modifier: Modifier = Modifier){
 
 @Composable
 fun BookImage(imageResource: Int){
-    
+    Image(
+        painter = painterResource(id = imageResource),
+        contentDescription = stringResource(id = R.string.menu))
 }
 
 data class BookCategory(
