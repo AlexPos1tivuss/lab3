@@ -18,7 +18,7 @@ import com.raywenderlich.android.lab1.router.Screen
 
 private val items = listOf(
     BookCategory(
-        R.string.name,
+        R.string.sila,
         listOf(
             R.drawable.pic1_1,
             R.drawable.pic1_2,
@@ -26,7 +26,7 @@ private val items = listOf(
         )
     ),
     BookCategory(
-        R.string.name,
+        R.string.lovk,
         listOf(
             R.drawable.pic2_1,
             R.drawable.pic2_2,
@@ -34,7 +34,7 @@ private val items = listOf(
         )
     ),
     BookCategory(
-        R.string.name,
+        R.string.intel,
         listOf(
             R.drawable.pic3_1,
             R.drawable.pic3_2,
@@ -42,7 +42,7 @@ private val items = listOf(
         )
     ),
     BookCategory(
-        R.string.name,
+        R.string.univer,
         listOf(
             R.drawable.pic4_1,
             R.drawable.pic4_2,
