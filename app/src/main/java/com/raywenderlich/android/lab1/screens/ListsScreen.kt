@@ -20,33 +20,33 @@ private val items = listOf(
     BookCategory(
         R.string.sila,
         listOf(
-            R.drawable.pic1_1,
-            R.drawable.pic1_2,
-            R.drawable.pic1_3
+            R.drawable.pudge,
+            R.drawable.tidehunter,
+            R.drawable.bristleback
         )
     ),
     BookCategory(
         R.string.lovk,
         listOf(
-            R.drawable.pic2_1,
-            R.drawable.pic2_2,
-            R.drawable.pic2_3
+            R.drawable.antimage,
+            R.drawable.faceless_void,
+            R.drawable.juggernaut
         )
     ),
     BookCategory(
         R.string.intel,
         listOf(
-            R.drawable.pic3_1,
-            R.drawable.pic3_2,
-            R.drawable.pic3_3
+            R.drawable.zuus,
+            R.drawable.storm_spirit,
+            R.drawable.skywrath_mage
         )
     ),
     BookCategory(
         R.string.univer,
         listOf(
-            R.drawable.pic4_1,
-            R.drawable.pic4_2,
-            R.drawable.pic4_3
+            R.drawable.enigma,
+            R.drawable.snapfire,
+            R.drawable.broodmother
         )
     )
 )

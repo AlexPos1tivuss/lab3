@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.res.stringResource
@@ -44,6 +45,6 @@ fun RowScope.GridIcon(iconResource: IconResource){
 }
 
 data class IconResource(
-    val imageVector: ImageVactor,
+    val imageVector: ImageVector,
     val inVisible: Boolean
 )

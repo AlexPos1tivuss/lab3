@@ -33,7 +33,7 @@ fun MyScrollingScreen(modifier: Modifier = Modifier){
     Column(
         modifier = modifier.verticalScroll(rememberScrollState())
     ){
-        BookImage(R.drawable.Interface700shop_rus, R.string.shop)
+        BookImage(R.drawable.broodmother, R.string.shop)
         BookImage(R.drawable.pudge, R.string.pudge)
         BookImage(R.drawable.faceless_void, R.string.voidd)
     }
