@@ -20,6 +20,9 @@
     <string name="box_button_nav">Box</string>
     <string name="surface_button_nav">Surface</string>
     <string name="scaffold_button_nav">Scaffold</string>
+    <string name="scrolling_button_nav">Scrolling</string>
+    <string name="list_button_nav">List</string>
+    <string name="grid_button_nav">Grid</string>
     <string name="menu">Меню</string>
     <string name="compApp">MyComposeApp</string>
 
