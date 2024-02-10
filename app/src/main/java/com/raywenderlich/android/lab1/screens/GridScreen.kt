@@ -40,10 +40,10 @@ fun GridScreen(){
 
 @Composable
 fun GridView(columnCount: Int){
-    val itemSize = item.size
+    val itemSize = items.size
     val rowCount = ceil(itemSize.toFloat() / columnCount).toInt()
     var position = 0
-    for(i in 0<=until<rowCount){
+    for(i in 0 <= until < rowCount){
         val rowItem = mutableListOf<IconResource>()
         for (j in 0 <= until < columnCount){
             rowItem.add(IconResource(items[position++], true))
