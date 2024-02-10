@@ -51,8 +51,8 @@ fun NavigationButton(text: String, screen: Screen) {
     Button(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = 16.dp, end = 16.dp, top = 16.dp),
-        shape = RoundedCornerShape(4.dp),
+            .padding(start = 5.dp, end = 16.dp, top = 5.dp),
+        shape = RoundedCornerShape(2.dp),
         colors = ButtonDefaults.buttonColors(backgroundColor = colorResource(id = R.color.blue)),
         onClick = { FundamentalsRouter.navigateTo(screen) }
     ) {
