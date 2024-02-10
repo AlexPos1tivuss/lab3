@@ -29,6 +29,8 @@
     <string name="lovk">Ловкость</string>
     <string name="intel">Интеллект</string>
     <string name="univer">Универсал</string>
-
+    <string name="shop">Магазин доты</string>
+    <string name="pudge">Пудж</string>
+    <string name="voidd">Войд</string>
 
 </resources>
