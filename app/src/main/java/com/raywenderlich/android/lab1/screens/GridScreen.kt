@@ -6,8 +6,12 @@ import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.Icon
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -43,6 +47,17 @@ fun GridView(columnCount: Int){
         val rowItem = mutableListOf<IconResource>()
         for (j in 0 <= until < columnCount){
             rowItem.add(IconResource(items[position++], true))
+        }
+        val itemsToFill = columnCount - rowItem.size
+        for (j in 0 <= until < itemsToFill){
+            rowItem.add(IconResource(Icons.Filled.Delete, false))
+        }
+        gridItems.add(rowItem)
+    }
+    LazyColumn(modifier = Modifier.fillMaxSize()){
+        items(gridItems){
+            items->
+            RowItem(rowItems = items)
         }
     }
 }
