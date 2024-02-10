@@ -101,7 +101,10 @@ fun ListItem(bookCategory: BookCategory, modifier: Modifier = Modifier){
 fun BookImage(imageResource: Int){
     Image(
         painter = painterResource(id = imageResource),
-        contentDescription = stringResource(id = R.string.menu))
+        contentDescription = stringResource(id = R.string.menu),
+        modifier = Modifier
+            .size(200.dp)
+            .padding(4.dp))
 }
 
 data class BookCategory(
